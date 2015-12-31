@@ -32,9 +32,14 @@ class Achievement: NSManagedObject {
                 print("creation failed: \(error.localizedDescription)")
             }
         }
+        
     }
     
     class func numberOfCurrentStreak() -> Int {
-        
+        return 0
+    }
+    
+    class func numberOfYearToDate() -> Int {
+        return 0
     }
 }
