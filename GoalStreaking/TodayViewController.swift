@@ -18,6 +18,7 @@ class TodayViewController: UIViewController, UITextViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateUI()
     }
     @IBAction func todayFinishedButtonPressed(sender: AnyObject) {
         Achievement.createAchievementWithDate(NSDate(), context: context)
@@ -25,7 +26,7 @@ class TodayViewController: UIViewController, UITextViewDelegate {
     }
     
     func updateUI() {
-        
+        self.streakCountLabel.text = "\(Achievement.numberOfCurrentStreak(context: context))"
     }
 }
 
