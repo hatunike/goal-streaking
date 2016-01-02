@@ -21,6 +21,7 @@
 		00C181D11C34678D00ECC435 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C181D01C34678D00ECC435 /* CoreDataStack.swift */; };
 		00C181D31C346A9400ECC435 /* NSDate+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C181D21C346A9400ECC435 /* NSDate+Additions.swift */; };
 		00C181D61C349DB900ECC435 /* GoalStreaking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00C181D41C349DB900ECC435 /* GoalStreaking.xcdatamodeld */; };
+		00C181D81C37818400ECC435 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 00C181D71C37818400ECC435 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		00C181D01C34678D00ECC435 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = GoalStreaking/CoreDataStack.swift; sourceTree = SOURCE_ROOT; };
 		00C181D21C346A9400ECC435 /* NSDate+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+Additions.swift"; path = "GoalStreaking/NSDate+Additions.swift"; sourceTree = SOURCE_ROOT; };
 		00C181D51C349DB900ECC435 /* GoalStreaking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalStreaking.xcdatamodel; sourceTree = "<group>"; };
+		00C181D71C37818400ECC435 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				00C181B11C34642E00ECC435 /* AppDelegate.swift */,
 				00C181D01C34678D00ECC435 /* CoreDataStack.swift */,
 				00C181D21C346A9400ECC435 /* NSDate+Additions.swift */,
+				00C181D71C37818400ECC435 /* README.md */,
 				00C181CF1C34670100ECC435 /* Model */,
 				00C181C61C3466D100ECC435 /* Views */,
 				00C181C51C3466C900ECC435 /* Controllers */,
@@ -309,6 +312,7 @@
 				00C181B41C34642E00ECC435 /* AppDelegate.swift in Sources */,
 				00C181B61C34642E00ECC435 /* TodayViewController.swift in Sources */,
 				00C181D61C349DB900ECC435 /* GoalStreaking.xcdatamodeld in Sources */,
+				00C181D81C37818400ECC435 /* README.md in Sources */,
 				00C181CD1C3466FD00ECC435 /* Achievement.swift in Sources */,
 				00C181CE1C3466FD00ECC435 /* Achievement+CoreDataProperties.swift in Sources */,
 			);
