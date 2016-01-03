@@ -75,5 +75,16 @@ extension NSDate {
         components.second = -1
         return NSCalendar.currentCalendar().dateByAddingComponents(components, toDate: startOfDay, options: NSCalendarOptions())
     }
+    
+    func jan1stOfSameYear() -> NSDate {
+        let components = NSCalendar.currentCalendar().components(.Day, fromDate: self)
+        components.day = 1
+        components.month = 1
+        components.hour = 0
+        components.minute = 0
+        components.second = 0
+        
+        return NSCalendar.currentCalendar().dateFromComponents(components)!
+    }
 
 }

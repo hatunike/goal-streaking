@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		001A0E8A1C343B7400A46496 /* GoalStreakingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A0E891C343B7400A46496 /* GoalStreakingTests.swift */; };
 		001A0E951C343B7400A46496 /* GoalStreakingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A0E941C343B7400A46496 /* GoalStreakingUITests.swift */; };
+		009622801C3887CB00603D61 /* NSDate_AdditionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0096227F1C3887CB00603D61 /* NSDate_AdditionTests.swift */; };
 		00C181B41C34642E00ECC435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C181B11C34642E00ECC435 /* AppDelegate.swift */; };
 		00C181B51C34642E00ECC435 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C181B21C34642E00ECC435 /* HistoryTableViewController.swift */; };
 		00C181B61C34642E00ECC435 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C181B31C34642E00ECC435 /* TodayViewController.swift */; };
@@ -49,6 +50,7 @@
 		001A0E901C343B7400A46496 /* GoalStreaking.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoalStreaking.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		001A0E941C343B7400A46496 /* GoalStreakingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GoalStreakingUITests.swift; path = GoalStreakingUITests/GoalStreakingUITests.swift; sourceTree = "<group>"; };
 		001A0E961C343B7400A46496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = GoalStreakingUITests/Info.plist; sourceTree = "<group>"; };
+		0096227F1C3887CB00603D61 /* NSDate_AdditionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDate_AdditionTests.swift; path = GoalStreaking/NSDate_AdditionTests.swift; sourceTree = SOURCE_ROOT; };
 		00C181B11C34642E00ECC435 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GoalStreaking/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		00C181B21C34642E00ECC435 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryTableViewController.swift; path = GoalStreaking/HistoryTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		00C181B31C34642E00ECC435 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodayViewController.swift; path = GoalStreaking/TodayViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				001A0E891C343B7400A46496 /* GoalStreakingTests.swift */,
+				0096227F1C3887CB00603D61 /* NSDate_AdditionTests.swift */,
 				001A0E8B1C343B7400A46496 /* Info.plist */,
 			);
 			name = GoalStreakingTests;
@@ -322,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009622801C3887CB00603D61 /* NSDate_AdditionTests.swift in Sources */,
 				001A0E8A1C343B7400A46496 /* GoalStreakingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

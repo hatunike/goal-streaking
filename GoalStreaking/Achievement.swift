@@ -52,8 +52,19 @@ class Achievement: NSManagedObject {
         }
     }
     
-    class func numberOfYearToDate() -> Int {
-        return 0
+    class func numberOfYearToDate(context context:NSManagedObjectContext) -> Int {
+        let fr = NSFetchRequest(entityName: "Achievement")
+        let sort = NSSortDescriptor(key: "completed", ascending: true)
+        
+        fr.sortDescriptors = [sort]
+        
+        do {
+            let achievements = try context.executeFetchRequest(fr)
+            return Achievement.processStreak(achievements)
+        } catch let error as NSError {
+            print("Fetch failed: \(error.localizedDescription)")
+            return 0
+        }
     }
     
     class func processStreak(achievements:[AnyObject], mostRecentStreak:Bool = true) -> Int {
